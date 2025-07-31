@@ -1,0 +1,14 @@
+C:\Users\xovma\Downloads\SistemaVendasWinForms\SistemaVendasWinForms\bin\Debug\SistemaVendasWinForms.exe.config
+C:\Users\xovma\Downloads\SistemaVendasWinForms\SistemaVendasWinForms\bin\Debug\SistemaVendasWinForms.exe
+C:\Users\xovma\Downloads\SistemaVendasWinForms\SistemaVendasWinForms\bin\Debug\SistemaVendasWinForms.pdb
+C:\Users\xovma\Downloads\SistemaVendasWinForms\SistemaVendasWinForms\obj\Debug\SistemaVendasWinForms.csproj.AssemblyReference.cache
+C:\Users\xovma\Downloads\SistemaVendasWinForms\SistemaVendasWinForms\obj\Debug\SistemaVendasWinForms.FormCliente.resources
+C:\Users\xovma\Downloads\SistemaVendasWinForms\SistemaVendasWinForms\obj\Debug\SistemaVendasWinForms.FormProduto.resources
+C:\Users\xovma\Downloads\SistemaVendasWinForms\SistemaVendasWinForms\obj\Debug\SistemaVendasWinForms.FormVenda.resources
+C:\Users\xovma\Downloads\SistemaVendasWinForms\SistemaVendasWinForms\obj\Debug\SistemaVendasWinForms.Properties.Resources.resources
+C:\Users\xovma\Downloads\SistemaVendasWinForms\SistemaVendasWinForms\obj\Debug\SistemaVendasWinForms.csproj.GenerateResource.cache
+C:\Users\xovma\Downloads\SistemaVendasWinForms\SistemaVendasWinForms\obj\Debug\SistemaVendasWinForms.csproj.CoreCompileInputs.cache
+C:\Users\xovma\Downloads\SistemaVendasWinForms\SistemaVendasWinForms\obj\Debug\SistemaVendasWinForms.exe
+C:\Users\xovma\Downloads\SistemaVendasWinForms\SistemaVendasWinForms\obj\Debug\SistemaVendasWinForms.pdb
+C:\Users\xovma\Downloads\SistemaVendasWinForms\SistemaVendasWinForms\obj\Debug\SistemaVendasWinForms.exe.config
+C:\Users\xovma\Downloads\SistemaVendasWinForms\SistemaVendasWinForms\obj\Debug\SistemaVendasWinForms.FormMenu.resources
