@@ -120,16 +120,6 @@ Principais tabelas:
 - Produtos
 - Vendas
 
----
-
-# 📸 Screenshots
-
-Adicione imagens como:
-
-- Menu principal
-- Cadastro de clientes
-- Cadastro de produtos
-- Registro de vendas
 
 ---
 
