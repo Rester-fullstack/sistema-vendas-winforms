@@ -1,53 +1,189 @@
-# 🛒 Sistema de Vendas com WinForms + SQL Server
+# 🛒 Sistema de Vendas
 
-Este é um sistema de vendas desktop desenvolvido com **C#**, **WinForms** e **SQL Server**.  
-Ele permite realizar **cadastro de clientes, produtos e vendas** com conexão a banco de dados real.
+Aplicação desktop desenvolvida em **C#** com **Windows Forms** para gerenciamento de clientes, produtos e vendas, utilizando **SQL Server** como banco de dados.
 
----
-
-## 🎯 Funcionalidades
-
-- ✅ Cadastro de **Clientes** (Nome, Email, Telefone)
-- ✅ Cadastro de **Produtos** (Nome, Preço, Estoque)
-- ✅ Registro de **Vendas** (Cliente, Produto, Quantidade)
-- ✅ Visualização de dados com `DataGridView`
-- ✅ Integração com banco de dados SQL Server usando `SqlConnection`
+O sistema permite cadastrar clientes e produtos, registrar vendas e visualizar os dados por meio de uma interface gráfica simples e organizada.
 
 ---
 
-## 🛠️ Tecnologias Usadas
+## 🚀 Funcionalidades
 
-- **C#**
-- **Windows Forms (WinForms)**
-- **SQL Server (LocalDB)**
-- **ADO.NET**
-- **Visual Studio**
+### 👥 Clientes
+
+- Cadastro de clientes
+- Edição de clientes
+- Exclusão de clientes
+- Consulta de clientes
+
+### 📦 Produtos
+
+- Cadastro de produtos
+- Atualização de produtos
+- Exclusão de produtos
+- Controle de estoque
+
+### 💰 Vendas
+
+- Registro de vendas
+- Associação entre cliente e produto
+- Controle da quantidade vendida
+- Registro da data da venda
+
+### 📊 Interface
+
+- DataGridView para listagem
+- Navegação entre telas
+- Interface desktop intuitiva
 
 ---
 
-## 💽 Estrutura do Banco de Dados
+# 🛠️ Tecnologias Utilizadas
 
-### Tabelas:
+- C#
+- .NET Framework
+- Windows Forms (WinForms)
+- SQL Server / LocalDB
+- ADO.NET
+- Visual Studio
 
-sql
-CREATE TABLE Clientes (
-    Id INT PRIMARY KEY IDENTITY,
-    Nome NVARCHAR(100),
-    Email NVARCHAR(100),
-    Telefone NVARCHAR(20)
-);
+---
 
-CREATE TABLE Produtos (
-    Id INT PRIMARY KEY IDENTITY,
-    Nome NVARCHAR(100),
-    Preco DECIMAL(10,2),
-    Estoque INT
-);
+# 🏗️ Arquitetura
 
-CREATE TABLE Vendas (
-    Id INT PRIMARY KEY IDENTITY,
-    ClienteId INT FOREIGN KEY REFERENCES Clientes(Id),
-    ProdutoId INT FOREIGN KEY REFERENCES Produtos(Id),
-    Quantidade INT,
-    DataVenda DATETIME DEFAULT GETDATE()
-);
+```text
+Windows Forms
+      │
+      ▼
+ADO.NET
+      │
+      ▼
+SQL Server
+```
+
+---
+
+# 📂 Estrutura do Projeto
+
+```text
+sistema-vendas-winforms
+│
+├── Properties
+│
+├── FormCliente.cs
+├── FormProduto.cs
+├── FormVenda.cs
+├── FormMenu.cs
+│
+├── SqlConnectionFactory.cs
+├── Program.cs
+├── App.config
+│
+├── SistemaVendasWinForms.csproj
+└── README.md
+```
+
+---
+
+# ▶️ Como executar
+
+Clone o repositório
+
+```bash
+git clone https://github.com/Rester-fullstack/sistema-vendas-winforms.git
+```
+
+Entre na pasta
+
+```bash
+cd sistema-vendas-winforms
+```
+
+Abra o projeto no Visual Studio.
+
+Configure a string de conexão no arquivo:
+
+```
+App.config
+```
+
+Execute a aplicação pressionando **F5**.
+
+---
+
+# 🗄️ Banco de Dados
+
+O sistema utiliza SQL Server.
+
+Principais tabelas:
+
+- Clientes
+- Produtos
+- Vendas
+
+---
+
+# 📸 Screenshots
+
+Adicione imagens como:
+
+- Menu principal
+- Cadastro de clientes
+- Cadastro de produtos
+- Registro de vendas
+
+---
+
+# 📚 Objetivos do Projeto
+
+Este projeto foi desenvolvido para praticar:
+
+- Desenvolvimento Desktop
+- Windows Forms
+- Programação em C#
+- SQL Server
+- ADO.NET
+- CRUD completo
+- Manipulação de banco de dados
+
+---
+
+# 🔮 Melhorias Futuras
+
+- Controle de usuários
+- Relatórios em PDF
+- Dashboard de vendas
+- Exportação para Excel
+- Gráficos
+- Controle financeiro
+- Entity Framework Core
+
+---
+
+# 👩‍💻 Desenvolvedora
+
+**Ester da Costa Batista**
+
+Desenvolvedora Full Stack
+
+### Tecnologias
+
+- C#
+- .NET
+- ASP.NET Core
+- React
+- SQL Server
+- Entity Framework Core
+
+GitHub:
+
+https://github.com/Rester-fullstack
+
+LinkedIn:
+
+https://www.linkedin.com/in/ester-da-costa-batista-929500295
+
+---
+
+# 📄 Licença
+
+Projeto desenvolvido para fins de estudo e portfólio.
